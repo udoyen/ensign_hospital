@@ -139,11 +139,14 @@ img{
 
 section.section-content{
   padding:0 !important;
+  float:left;
+  width:100%;
 }
 
-div.col-md-4.col-sm-4.hidden-xs.image-box{
+div.col-md-4.col-sm-4.col-xs-12.image-box{
   padding:0 !important;
-  height:100% !important;
+  float:left;
+  width:40%;
 }
 
 span.ensign{
@@ -186,5 +189,61 @@ img#my-image.img-responsive{
 
 div.col-md-8.col-sm-8.col-xs-12.image-box-partner{
   float:left;
+  width:60%;
+}
+
+div.section-content-2{
+  float:left;
+  width:100%;
+}
+
+div.section-content-3{
+  float:left;
+  width:100%;
+}
+
+@media (max-width:991px) {
+  div.col-md-4.col-sm-4.col-xs-12.image-box{
+    float:none;
+    width:100%;
+  }
+}
+
+@media (max-width:991px) {
+  div.col-md-8.col-sm-8.col-xs-12.image-box-partner{
+    float:none;
+    width:100%;
+  }
+}
+
+@media (max-width:767px) {
+  div.col-md-4.col-sm-4.col-xs-12.image-box{
+    display:none;
+    margin-top:10px;
+  }
+}
+
+@media (max-width:767px) {
+  div.col-md-8.col-sm-8.col-xs-12.image-box-partner{
+    float:none;
+    width:100%;
+    margin-top:10px;
+  }
+}
+
+@media (max-width:991px) {
+  div.row.box-menu-row{
+  }
+}
+
+@media (max-width:991px) {
+  div.col-md-4.col-sm-4.col-xs-12.jumbo-box-outerbox{
+  }
+}
+
+@media (max-width:425px) {
+  div#welcome-div{
+    margin-top:100px;
+  }
 }
 
