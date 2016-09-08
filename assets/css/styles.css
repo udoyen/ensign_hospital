@@ -143,6 +143,7 @@ section.section-content{
 
 div.col-md-4.col-sm-4.hidden-xs.image-box{
   padding:0 !important;
+  height:100% !important;
 }
 
 span.ensign{
@@ -157,5 +158,33 @@ div#welcome-div{
 div.link-div{
   margin-top:10px;
   margin-bottom:10px;
+}
+
+ul.welcome-list{
+  color:#64AAAC !important;
+  list-style:none;
+}
+
+ul.welcome-list li{
+  text-indent:-1.4em;
+  width:100%;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+p.welcome-text{
+  line-height:1.7 !important;
+  font-size:1.1em;
+  width:80% !important;
+}
+
+img#my-image.img-responsive{
+  height:100% !important;
+  padding:0 !important;
+  margin:0 !important;
+}
+
+div.col-md-8.col-sm-8.col-xs-12.image-box-partner{
+  float:left;
 }
 
