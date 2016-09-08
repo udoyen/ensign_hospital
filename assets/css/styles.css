@@ -202,48 +202,47 @@ div.section-content-3{
   width:100%;
 }
 
-@media (max-width:991px) {
+@media (max-width:768px) {
   div.col-md-4.col-sm-4.col-xs-12.image-box{
+    margin-top:10px;
     float:none;
     width:100%;
   }
 }
 
-@media (max-width:991px) {
+@media (max-width:768px) {
   div.col-md-8.col-sm-8.col-xs-12.image-box-partner{
     float:none;
     width:100%;
   }
 }
 
-@media (max-width:767px) {
-  div.col-md-4.col-sm-4.col-xs-12.image-box{
-    display:none;
-    margin-top:10px;
+@media (max-width:768px) {
+  p.welcome-text{
+    width:100% !important;
   }
 }
 
-@media (max-width:767px) {
-  div.col-md-8.col-sm-8.col-xs-12.image-box-partner{
-    float:none;
-    width:100%;
-    margin-top:10px;
-  }
-}
-
-@media (max-width:991px) {
-  div.row.box-menu-row{
-  }
-}
-
-@media (max-width:991px) {
-  div.col-md-4.col-sm-4.col-xs-12.jumbo-box-outerbox{
+@media (min-width:320px) and (max-width:640px) {
+  div#welcome-div{
   }
 }
 
 @media (max-width:425px) {
-  div#welcome-div{
-    margin-top:100px;
+  p.welcome-text{
+    width:100% !important;
+  }
+}
+
+@media (max-width:320px) {
+  h1.welcome{
+    font-size:2em !important;
+  }
+}
+
+@media (max-width:360px) {
+  h1.welcome{
+    font-size:2em !important;
   }
 }
 
