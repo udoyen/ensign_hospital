@@ -4,114 +4,256 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ensign_clinic</title>
+    <title>ensign_3</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans+Condensed:300|Pacifico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Poiret+One|Raleway:400,800|Rokkitt:400,700|News+Cycle:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans+Condensed:300|Pacifico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans+Condensed:300|Pacifico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Poiret+One|Raleway:400,800|Rokkitt:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Poiret+One|Raleway:400,800|Rokkitt:400,700">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/Hero-Technology.css">
-    <link rel="stylesheet" href="assets/css/slide.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/koko_form.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/scrolling-nav.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body>
-    <div class="container-fluid main-container">
-        <div class="jumbotron hero-technology" id="header-jumbo">
-            <nav class="navbar navbar-default center main-page-nav">
-                <div class="container-fluid menu-container">
-                    <div class="navbar-header"><a class="navbar-brand navbar-link" href="#">Logo </a>
-                        <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-                    </div>
-                    <div class="collapse navbar-collapse" id="navcol-1">
-                        <ul class="nav navbar-nav">
-                            <li class="active" role="presentation"><a href="#">HOME </a></li>
-                            <li role="presentation"><a href="#">SERVICES </a></li>
-                            <li role="presentation"><a href="#">TIMETABLE </a></li>
-                            <li role="presentation"><a href="#">CONTACT </a></li>
-                            <li role="presentation"><a href="#">ABOUT US</a></li>
-                        </ul>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top center" role="navigation">
+    <div class="container">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top"><span id="ensign-text">Ensign Hospital</span></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-inner">
+            <ul class="nav navbar-nav">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li class="hidden">
+                    <a class="page-scroll" href="#page-top"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#home">Home</a>
+                </li>                
+                <li>
+                    <a class="page-scroll" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#services">Services</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+    <section id="home" class="home-section">
+        <div class="container clearfix">
+            <div class="row me-flex">
+                <div class="col-md-12 vert-align">
+                    <div class="col-md-12">
+                        <h1 class="hero-title"><i class="icon ion-ios-pulse-strong"></i>Ensign Hospital <i class="icon ion-ios-pulse-strong"></i></h1>
+                        <p class="hero-subtitle">Nunllam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
+                        <p><a class="btn btn-info btn-lg hero-button jumbo-contact-btn page-scroll head-btn" role="button" href="#contact" id="head-contact-btn">CONTACT US</a></p>
                     </div>
                 </div>
-            </nav>
-            <h1 class="hero-title">Ensign Hospital</h1>
-            <p class="hero-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-            <p><a class="btn btn-info btn-lg hero-button jumbo-contact-btn" role="button" href="#">contact us</a></p>
-            <div class="row box-menu-row">
-                <div class="clearfix"></div>
-                <div class="col-md-4 col-sm-4 col-xs-12 jumbo-box-outerbox">
-                    <div>
-                        <div class="jumbo-box-top-rod"></div>
-                        <div class="jumbo-box-cover"><span>1 </span></div>
-                        <div class="col-md-12 col-sm-12 col-xs-12 jumbo-box" id="jumbo-box-1">
-                            <div class="jumbo-menu-box">
-                                <h3 class="text-left">Emergency Case</h3>
-                                <p class="text-left jumbo-box-menu-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam venenatis nibh ante, eget cursus erat blandit in. Nunc interdum ex sit amet lectus viverra, in lobortis eros accumsan. </p><a class="btn btn-default btn-block jumbo-box-button"
-                                role="button" href="#">Read more <i class="glyphicon glyphicon-menu-right"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-4 col-xs-12 jumbo-box-outerbox">
-                    <div>
-                        <div class="jumbo-box-top-rod"></div>
-                        <div class="jumbo-box-cover"><span>2 </span></div>
-                        <div class="col-md-12 col-sm-12 col-xs-12 jumbo-box" id="jumbo-box-2">
-                            <div class="jumbo-menu-box">
-                                <h3 class="text-left">Doctors Timetable</h3>
-                                <p class="text-left jumbo-box-menu-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam venenatis nibh ante, eget cursus erat blandit in. Nunc interdum ex sit amet lectus viverra, in lobortis eros accumsan. </p><a class="btn btn-default btn-block jumbo-box-button"
-                                role="button" href="#">Read more <i class="glyphicon glyphicon-menu-right"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-4 col-xs-12 jumbo-box-outerbox">
-                    <div>
-                        <div class="jumbo-box-top-rod"></div>
-                        <div class="jumbo-box-cover"><span>3 </span></div>
-                        <div class="col-md-12 col-sm-12 col-xs-12 jumbo-box" id="jumbo-box-3">
-                            <div class="jumbo-menu-box">
-                                <h3 class="text-left">Opening Hours</h3>
-                                <div class="boxtext-container"><span class="boxtez-left">8:00 - 17:00</span><span class="boxtex-right">Monday - Friday</span></div>
-                                <div class="boxtext-container"><span class="boxtez-left">8:00 - 17:00</span><span class="boxtex-right">Saturday </span></div>
-                                <div class="boxtext-container"><span class="boxtez-left">8:00 - 17:00</span><span class="boxtex-right">Sunday </span></div>
+                <div class="col-md-12">
+                    <div class="container inner-container">
+                        <div id="box-container" class="clearfix">
+                            <div class="col-md-4 col-sm-4 home-box flex-items">
+                                <div class="box1"></div>
+                                <div class="box2">
+                                    <p>1 </p>
+                                </div>
+                                <div class="box3 box-exempt">
+                                    <h4>Emergency Case </h4>
+                                    <p class="box-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aliquam venenatis nibh ante, eget cursus erat blandit in.Nunc interdum ex sit amet lectus viverra, in lobortis eros accumsan. </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 home-box flex-items">
+                                <div class="box1"></div>
+                                <div class="box2">
+                                    <p>2 </p>
+                                </div>
+                                <div class="box3 box-exempt">
+                                    <h4>Doctors Timetable</h4>
+                                    <p class="box-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aliquam venenatis nibh ante, eget cursus erat blandit in.Nunc interdum ex sit amet lectus viverra, in lobortis eros accumsan. </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 home-box flex-items">
+                                <div class="box1"></div>
+                                <div class="box2">
+                                    <p>3 </p>
+                                </div>
+                                <div class="box3 box-exempt">
+                                    <h4>Opening Hours</h4>
+                                    <div id="timetable">
+                                        <div class="timetable-container col-md-12 col-sm-12"><span class="time-left">Monday - Friday</span><span class="time-right">8:00- 17:00</span></div>
+                                        <div class="timetable-container col-md-12 col-sm-12"><span class="time-left">Saturday </span><span class="time-right">8:00- 17:00</span></div>
+                                        <div class="timetable-container col-md-12 col-sm-12"><span class="time-left">Sundays </span><span class="time-right">8:00- 17:00</span></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row section-row">
-        <div class="col-md-12 section-block">
-            <div class="section-content-3">
-                <div class="section-content-2">
-                    <div class="section-content">
-                        <div class="col-md-4 col-sm-4 col-xs-12 image-box"><img class="img-responsive" src="assets/img/hero-background-technology.jpg" id="my-image"></div>
-                        <div class="col-md-8 col-sm-8 col-xs-12 image-box-partner">
-                            <div id="welcome-div">
-                                <h1 class="welcome"><strong>Welcome to </strong><span class="ensign">Ensign</span></h1>
-                                <h3>Medical Center ♿</h3>
-                                <p class="welcome-text">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss
-                                    of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite. </p>
-                                <div class="link-div">
-                                    <div>
-                                        <ul class="welcome-list">
+    </section>
+    <section id="about" class="about-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 clear-me">
+                    <div class="col-md-12 stretch stretch-box">
+                        <div class="col-md-3 col-sm-12 hidden-xs stretch about-image"><img class="img-responsive my-img" src="assets/img/oy.jpeg"></div>
+                        <div class="col-md-9 col-xs-12 hidden-xs stretch about-image" id="about-right-content">
+                            <h1 class="bg-success">Welcome to Ensign Medical Center</h1>
+                            <h3>Health care at its best : <i class="fa fa-wheelchair"></i></h3>
+                            <p class="context-text">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of
+                                souls like mine. I am so happy, my dear friend, so absorbed in the exquisite </p>
+                            <ul class="welcome-list">
     <li><i class="fa fa-play"></i>A wonderful serenity has taken possession </li>
     <li><i class="fa fa-play"></i>A wonderful serenity has taken possession </li>
     <li><i class="fa fa-play"></i>A wonderful serenity has taken possession </li>
 </ul>
-                                    </div>
-                                </div>
-                                <p class="welcome-text">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss
-                                    of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite. </p>
-                            </div>
+                            <p class="context-text">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of
+                                souls like mine. I am so happy, my dear friend, so absorbed in the exquisite </p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-12">
+                        <h1>Services </h1></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-12">
+                        <h1>Contact </h1>
+                        <div>
+                            <button class="btn btn-primary btn-lg" type="button" data-toggle="modal" data-target="#myModal">Button</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <section id="contact-modal">
+        <div class="modal fade" role="dialog" tabindex="-1" id="myModal">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        <h4 class="text-center modal-title">CONTACT FORM</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="container">
+                                    <form method="post" enctype="application/x-www-form-urlencoded" class="form-horizontal" role="form">
+                                        <div class="col-sm-10 move-left">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label class="control-label col-sm-4" for="firstname">First Name:</label>
+                                                    <div class="col-sm-8">
+                                                        <input class="form-control" type="text" name="firstname" required="" placeholder="First Name:" id="firstName">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label class="control-label col-sm-4" for="lastname">Last Name:</label>
+                                                    <div class="col-sm-8">
+                                                        <input class="form-control" type="text" name="lastname" required="" placeholder="Last Name:" id="lastName">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-10 move-left">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label class="control-label col-sm-4" for="phonenumber">Phone Number:</label>
+                                                    <div class="col-sm-8">
+                                                        <input class="form-control" type="tel" name="phonenumber" placeholder="Phone Number:" id="phoneNumber">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label class="control-label col-sm-4" for="email">Email:</label>
+                                                    <div class="col-sm-8">
+                                                        <input class="form-control" type="email" name="email" required="" placeholder="Email:" id="my-email">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="c-left" class="col-sm-10 move-left">
+                                            <div class="form-group">
+                                                <label class="control-label col-sm-4" for="comments">Comments:</label>
+                                                <div class="col-sm-8">
+                                                    <textarea class="form-control" rows="10" name="my-comments" placeholder="What can we do for you?" id="comments"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <button class="btn btn-default btn-lg com-contact" type="submit" id="mod-sub">SEND</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-warning" type="button" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer" class="footer-section">
+        <div class="container-fluid footer">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-12">
+                        <footer>
+                            <p>Help that matters</p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/ebs-site.js"></script>
+    <script src="assets/js/jquery-1.11.0.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/js/jumbo-height.js"></script>
+    <script src="assets/js/parallax.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
 </body>
 
 </html>
