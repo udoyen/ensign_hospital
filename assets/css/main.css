@@ -158,12 +158,16 @@ blockquote:before{
 }
 
 #home{
-  background:url("../../assets/img/header2.jpg") 50% no-repeat;
-  padding:40px 0;
+  background:url("../../assets/img/header2.jpg") center center no-repeat fixed;
+  padding:20px 0;
   background-size:cover !important;
   -webkit-background-size:cover !important;
   -webkit-font-smoothing:antialiased;
   text-rendering:optimizeLegibility;
+}
+
+.linux.gecko #home{
+  padding:100px 0;
 }
 
 h1.hero-title, h2.hero-title, h3.hero-title{
@@ -183,8 +187,12 @@ h1.hero-title, h2.hero-title, h3.hero-title{
   -webkit-border-radius:0 !important;
 }
 
-a#head-contact-btn{
+a.head-contact-btn, .head-contact-btn{
   color:#fff !important;
+  background:#2E577F;
+  border-radius:0 !important;
+  -moz-border-radius:0 !important;
+  -webkit-border-radius:0 !important;
 }
 
 p{
@@ -253,6 +261,7 @@ p.hero-subtitle{
 
 div.box3 h4{
   text-shadow:0 2px 2px rgba(0,0,0,0.3);
+  color:#2E577F;
 }
 
 div.box3 p{
@@ -363,6 +372,13 @@ div.modal-content{
 div#myModal{
   color:#000 !important;
   font-family:'Pacifico', cursive;
+}
+
+div#contact-div-content{
+  border-right:2px solid grey;
+  border-left:2px solid grey;
+  height:100%;
+  width:100%;
 }
 
 @media screen and (max-width: 768px) {

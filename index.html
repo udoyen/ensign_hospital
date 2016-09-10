@@ -60,14 +60,14 @@
     </div>
     <!-- /.container -->
 </nav>
-    <section id="home" class="home-section">
+    <section id="home" class="home-section" data-type="background" data-speed="8">
         <div class="container clearfix">
             <div class="row me-flex">
                 <div class="col-md-12 vert-align">
                     <div class="col-md-12">
                         <h1 class="hero-title"><i class="icon ion-ios-pulse-strong"></i>Ensign Hospital <i class="icon ion-ios-pulse-strong"></i></h1>
                         <p class="hero-subtitle">Nunllam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
-                        <p><a class="btn btn-info btn-lg hero-button jumbo-contact-btn page-scroll head-btn" role="button" href="#contact" id="head-contact-btn">CONTACT US</a></p>
+                        <p><a class="btn btn-info btn-lg hero-button jumbo-contact-btn page-scroll head-btn head-contact-btn" role="button" href="#contact">CONTACT US</a></p>
                     </div>
                 </div>
                 <div class="col-md-12">
@@ -152,10 +152,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="col-md-12">
+                    <div class="col-md-12 col-sm-12">
                         <h1>Contact </h1>
+                        <div id="contact-div-content" class="col-md-12 col-sm-12">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse purus diam, commodo id pulvinar molestie, suscipit et orci. Mauris leo ipsum, mollis vitae tortor eget, gravida tempus velit. Nullam non nunc a nisi suscipit
+                                cursus ut nec turpis. Vivamus non lacinia ante. Aliquam faucibus molestie ligula vel accumsan. Vivamus vulputate pulvinar eros, at dignissim mi placerat tempor. Praesent in dui ipsum. </p>
+                        </div>
                         <div>
-                            <button class="btn btn-primary btn-lg" type="button" data-toggle="modal" data-target="#myModal">Button</button>
+                            <button class="btn btn-primary btn-lg head-contact-btn" type="button" data-toggle="modal" data-target="#myModal">CONTACT US</button>
                         </div>
                     </div>
                 </div>
@@ -235,7 +239,7 @@
         </div>
     </section>
     <section id="footer" class="footer-section">
-        <div class="container-fluid footer">
+        <div class="container footer">
             <div class="row">
                 <div class="col-md-12">
                     <div class="col-md-12">
@@ -249,6 +253,7 @@
     </section>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/css_browser_selector.js"></script>
     <script src="assets/js/jquery-1.11.0.js"></script>
     <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/js/jumbo-height.js"></script>
