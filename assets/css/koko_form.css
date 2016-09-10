@@ -1,0 +1,107 @@
+section#contact-modal{
+  font-size:0.8em;
+}
+
+input[type="text"], input[type="email"], input[type="tel"]{
+  width:300px;
+  box-sizing:border-box;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea#comments, .form-group > select{
+  box-shadow:0px 0px 15px #07CC98;
+  width:100%;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea#comments:focus, .form-group > select:focus{
+  box-shadow:0px 0px 1px #07CC98;
+  border-color:#07CC98;
+}
+
+select.form-control{
+  width:500px;
+  border-radius:20px;
+}
+
+#my-select{
+  padding-left:153px;
+}
+
+form .move-left{
+  padding-right:180px;
+}
+
+#c-left{
+  margin-left:-122px;
+}
+
+textarea#comments{
+  width:500px;
+}
+
+.modal-header, .modal-footer{
+  background:#07CC98;
+}
+
+#mod-sub{
+  padding:10px;
+}
+
+@media (max-width:768px) {
+  .form-group label{
+    font-size:1.3em;
+  }
+}
+
+@media (max-width:991px) {
+  #my-select{
+    padding-left:73px;
+  }
+}
+
+*{
+  -webkit-font-smoothing:antialiased !important;
+  text-rendering:optimizeLegibility !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  font-family:'Raleway', sans-serif;
+}
+
+.btn{
+  font-family:'News Cycle', sans-serif;
+}
+
+label{
+  color:#222222;
+  font-family:'Poiret One', cursive;
+  font-size:1.5em;
+}
+
+section{
+  padding:30px 0;
+}
+
+.com-contact{
+  margin-top:12px;
+  margin-bottom:10px;
+  border-radius:20px;
+  background:#07CC98;
+  border-color:#222222;
+  border-style:dashed;
+  font-family:'New Cycle', sans-serif;
+  font-size:2em;
+  padding:15px 60px;
+}
+
+.com-contact:hover, .com-contact:active{
+  color:#07CC98;
+  border-style:dashed;
+  border-color:#ffffff;
+}
+
+.btn-default:focus, .btn-default.focus{
+  color:#07CC98;
+}
+

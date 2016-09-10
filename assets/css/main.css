@@ -1,0 +1,409 @@
+body{
+  margin-top:50px;
+  font-size:16px;
+  color:#000;
+  font-family:'Open Sans Condensed', sans-serif;
+  background:url("../../assets/img/tile.jpg") top left repeat;
+}
+
+h1, h2, h3, h4, h5, h6{
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  font-weight:bold;
+}
+
+h1{
+  font-size:3em;
+}
+
+h1, h2{
+  margin:0 0 40px;
+}
+
+h3{
+  margin:20px 0;
+}
+
+h4{
+  font-size:18px;
+}
+
+p.lead{
+  font-weight:normal;
+}
+
+p{
+  margin:0 0 15px;
+}
+
+a:link, a:visited{
+  color:#2E577F !important;
+}
+
+a:hover{
+  text-decoration:none;
+  color:#fff !important;
+}
+
+button, input, .btn, a.btn{
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+.btn{
+  font-weight:bold;
+}
+
+button.btn:focus{
+  outline:none !important;
+}
+
+.btn-danger{
+  background-color:#dd5638;
+  border-color:#d95131;
+}
+
+.btn-success{
+  background:#79b044;
+  border:none;
+}
+
+.btn-success:hover{
+  background:#6a9b3d;
+  border-color:#6a9b3d;
+}
+
+img{
+  max-width:100%;
+}
+
+.modal-content{
+  background:url('../img/tile.jpg') top left repeat;
+}
+
+.badge.social{
+  background:#ccc;
+  font-size:24px;
+  height:40px;
+  width:40px;
+  text-align:center;
+  line-height:42px;
+  margin:0 5px 20px 0;
+  padding:0;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  border-radius:50px;
+}
+
+.badge.social.twitter:hover{
+  background:#55acee;
+}
+
+.badge.social.facebook:hover{
+  background:#3b5998;
+}
+
+.badge.social.gplus:hover{
+  background:#db4b39;
+}
+
+blockquote{
+  padding:0;
+  border:none;
+  font-style:italic;
+  text-align:left;
+}
+
+blockquote cite{
+  display:block;
+  color:#777;
+  margin:15px 0 0 0;
+}
+
+blockquote:before{
+  display:none;
+}
+
+.navbar .nav, .navbar .nav > li{
+  float:none;
+  display:inline-block;
+  *display:inline;
+  *zoom:1;
+  vertical-align:top;
+}
+
+.navbar-inner{
+  text-align:center;
+  font-weight:800;
+  font-stretch:expanded;
+}
+
+.navbar-default .navbar-nav > li > a{
+  width:100%;
+  margin-right:30px;
+}
+
+.navbar-default{
+  background:#07CC98;
+  border-color:#8FDA7B;
+}
+
+.vert-align{
+  padding-top:10%;
+}
+
+#ensign-text{
+  font-weight:800;
+  font-size:2em;
+}
+
+#home{
+  background:url("../../assets/img/header2.jpg") 50% no-repeat;
+  padding:40px 0;
+  background-size:cover !important;
+  -webkit-background-size:cover !important;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+h1.hero-title, h2.hero-title, h3.hero-title{
+  text-shadow:0 2px 2px rgba(0,0,0,0.3);
+  font-weight:900;
+  font-size:3em;
+}
+
+.head-btn:hover{
+  color:#000 !important;
+}
+
+.head-btn{
+  margin-top:30px;
+  border-radius:0 !important;
+  -moz-border-radius:0 !important;
+  -webkit-border-radius:0 !important;
+}
+
+a#head-contact-btn{
+  color:#fff !important;
+}
+
+p{
+  line-height:1.4em;
+  font-size:1.4em;
+}
+
+p.hero-subtitle{
+  max-width:600px;
+  margin:25px auto 35px auto;
+  padding:10px 10px 15px;
+  background-color:rgba(0, 0, 0, 0.1);
+  color:#fff;
+  text-shadow:0 1px 1px rgba(0, 0, 0, 0.7);
+  font-weight:500;
+}
+
+.me-flex{
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  -ms-flex-direction:column;
+  -webkit-flex-direction:column;
+  justify-content:flex-end;
+  -webkit-justify-content:flex-end;
+}
+
+.inner-container{
+  align-self:flex-end !important;
+}
+
+.inner-container, .home-box{
+  padding-bottom:0 !important;
+}
+
+.home-box{
+  font-size:1em !important;
+  text-align:left;
+}
+
+.box1{
+  min-height:5%;
+  max-height:5%;
+  min-width:100%;
+  max-width:100%;
+  border-top:3px solid #e5e5e5;
+}
+
+.box2{
+  font-size:0.5em;
+  min-height:15%;
+  max-height:15%;
+  min-width:100%;
+  max-width:100%;
+}
+
+.box3{
+  min-height:80%;
+  max-height:80%;
+  min-width:100%;
+  max-width:100%;
+  background-color:#07CC98;
+  padding:5px;
+  color:#fff;
+}
+
+div.box3 h4{
+  text-shadow:0 2px 2px rgba(0,0,0,0.3);
+}
+
+div.box3 p{
+  font-weight:700;
+  font-size:1em;
+}
+
+#box-container{
+  display:flex;
+  flex-direction:row;
+  -webkit-flex-direction:row;
+  -ms-flex-direction:row;
+}
+
+.flex-items{
+  align-self:stretch;
+  -webkit-align-self:stretch;
+}
+
+p.box-para{
+  font-size:0.8em;
+  width:100%;
+  max-width:100%;
+  min-width:100%;
+}
+
+.timetable-container{
+  padding-top:5px;
+  border-bottom:1px solid grey;
+  padding-left:0;
+  font-size:0.9em;
+  font-weight:700;
+}
+
+.time-left{
+  float:left;
+}
+
+.time-right{
+  float:right;
+}
+
+div.col-md-12.clear-me{
+  padding:0;
+  margin-left:0;
+  margin-right:0;
+}
+
+.stretch{
+  padding:0 !important;
+}
+
+.stretch-box{
+  display:flex;
+  flex-direction:row;
+}
+
+.about-image{
+  align-self:stretch;
+  float:left;
+  padding:0 !important;
+  margin:0 !important;
+  height:100%;
+  width:100%;
+  min-height:100%;
+  max-height:100%;
+}
+
+.my-img{
+  min-height:100%;
+  max-height:100%;
+  height:100%;
+  width:100%;
+  border:none;
+  padding:0;
+  margin:0;
+  overflow:hidden;
+}
+
+div#about-right-content.col-md-9.col-xs-12.hidden-xs.stretch.about-image{
+  text-align:left;
+  padding-left:22px !important;
+}
+
+p.context-text{
+  width:90%;
+}
+
+ul.welcome-list{
+  list-style:none;
+}
+
+ul.welcome-list li{
+  text-indent:-1.2em;
+  width:100%;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+section#footer.footer-section{
+  font-family:'Pacifico', cursive;
+}
+
+div.modal-content{
+  background:url("../../assets/img/tile.jpg") top left repeat;
+}
+
+div#myModal{
+  color:#000 !important;
+  font-family:'Pacifico', cursive;
+}
+
+@media screen and (max-width: 768px) {
+  p.hero-subtitle{
+    font-size:inherit;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .vert-align{
+    padding-top:5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .inner-container{
+    bottom:-10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box3{
+    font-size:0.8em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .head-btn{
+    margin-top:6px;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  .inner-container{
+    display:none;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  h1.hero-title, h2.hero-title, h3.hero-title{
+    font-size:2.7em;
+  }
+}
+
