@@ -31,25 +31,22 @@ html{
 }
 
 .about-section{
-  padding-top:50px;
+  padding-top:100px;
   text-align:center;
   padding-bottom:0;
 }
 
 .services-section{
-  height:100%;
   padding-top:50px;
   text-align:center;
 }
 
 .contact-section{
-  height:100%;
   padding-top:50px;
   text-align:center;
 }
 
 .footer-section{
-  height:100%;
   padding-top:50px;
   text-align:center;
 }
