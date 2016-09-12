@@ -34,3 +34,7 @@ td.new.day{
   color:#77aaff !important;
 }
 
+td.day:hover{
+  color:#333;
+}
+
