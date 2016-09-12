@@ -362,7 +362,7 @@ ul.welcome-list li{
 }
 
 section#footer.footer-section{
-  font-family:'Pacifico', cursive;
+  font-family:'Lato', sans-serif;
 }
 
 div.modal-content{
@@ -518,5 +518,127 @@ i.media-icon{
 
 .section-header{
   color:#31708F;
+}
+
+div#fbox-1{
+  height:60%;
+  min-height:70%;
+}
+
+div.footer-wrapper{
+  min-height:100%;
+  height:100%;
+}
+
+section#footer{
+  background-color:#2E2E2E;
+}
+
+div.container.footer-wrapper{
+  background:#2E2E2E;
+}
+
+div.foot-box{
+  background-color:#2E2E2E;
+}
+
+section#footer{
+  height:500px;
+  min-height:500px;
+  max-height:500px;
+}
+
+div#fbox-3{
+  height:20%;
+  min-height:10%;
+  max-height:10%;
+  border-top:1px solid grey;
+}
+
+div#fbox-2{
+  height:20%;
+  min-height:20%;
+  max-height:20%;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+div.footer{
+  height:100%;
+  min-height:100%;
+}
+
+div.footer-top-box{
+  min-height:100%;
+  height:100%;
+  max-height:100%;
+}
+
+ul.social.social-list{
+  list-style:none;
+  display:inline-block;
+  text-align:center;
+  margin:0 auto;
+  padding:0;
+}
+
+ul.social.social-list li{
+  display:inline-block;
+  float:left;
+  margin-left:30px;
+  padding:10px;
+}
+
+ul.social-list:first-child{
+  margin-right:30px;
+}
+
+div.list-block{
+  text-align:center;
+}
+
+li.socio-list{
+  height:50px;
+  width:50px;
+  padding:10px;
+  border-radius:50px;
+  line-height:30px;
+  border:2px solid #fff;
+}
+
+a#twitter-link:hover{
+  color:#6CB7F0 !important;
+}
+
+a#face-link:hover{
+  color:#4264AA !important;
+}
+
+a#linkedin-link:hover{
+  color:#00A0DC !important;
+}
+
+li#face, li#twitter-list, #linkedin{
+  color:#fff !important;
+  border-color:#fff;
+  -webkit-transition:border-color 1s, color 1s;
+  -moz-transition:border-color 1s, color 1s;
+  -o-transition:border-color 1s, color 1s;
+  transition:border-color 1s, color 1s;
+}
+
+li#linkedin:hover{
+  border-color:#00A0DC !important;
+  color:#00A0DC !important;
+}
+
+li#twitter-list:hover{
+  border-color:#6CB7F0 !important;
+  color:#6CB7F0 !important;
+}
+
+li#face:hover{
+  border-color:#4264AA !important;
+  color:#4264AA !important;
 }
 
