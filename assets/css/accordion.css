@@ -1,0 +1,26 @@
+div#accordion-1{
+  width:90%;
+  -webkit-border-radius:0;
+  -moz-border-radius:0;
+  border-radius:0;
+}
+
+div.acc-panel-heading{
+  background:#07CC98!important;
+  color:white;
+}
+
+.panel-default > .panel-heading{
+  -moz-border-radius:0;
+  -webkit-border-radius:0;
+  border-radius:0;
+}
+
+div.panel-body{
+  -webkit-border-radius:0;
+  -moz-border-radius:0;
+  border-radius:0;
+  border:0.5px solid #ddd;
+  background:#6CB7F0;
+}
+
