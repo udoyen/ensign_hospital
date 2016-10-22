@@ -81,9 +81,27 @@ img{
   background:url('../img/tile.jpg') top left repeat;
 }
 
+.badge.social{
+  background:#ccc;
+  font-size:24px;
+  height:40px;
+  width:40px;
+  text-align:center;
+  line-height:42px;
+  margin:0 5px 20px 0;
+  padding:0;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  border-radius:50px;
+}
 
+.badge.social.twitter:hover{
+  background:#55acee;
+}
 
-
+.badge.social.facebook:hover{
+  background:#3b5998;
+}
 
 .badge.social.gplus:hover{
   background:#db4b39;
@@ -332,10 +350,6 @@ p.context-text{
   width:90%;
 }
 
-ul.welcome-list{
-  list-style:none;
-}
-
 ul.welcome-list li{
   text-indent:-1.2em;
   width:100%;
@@ -349,6 +363,18 @@ section#footer.footer-section{
 
 div.modal-content{
   background:url("../../assets/img/tile.jpg") top left repeat;
+}
+
+div#myModal{
+  color:#000 !important;
+  font-family:'Pacifico', cursive;
+}
+
+div#contact-div-content{
+  border-right:2px solid grey;
+  border-left:2px solid grey;
+  height:100%;
+  width:100%;
 }
 
 section#footer.footer-section{
@@ -639,5 +665,22 @@ div#footer-top-right{
 
 p#copright-tex{
   color:#F0F7FF;
+}
+
+img.staff-img{
+  height:100%;
+  width:500%;
+  z-index:5;
+  border:none;
+  padding:0;
+  margin:0;
+}
+
+div.image-box.col-md-3{
+  z-index:0;
+}
+
+div.staff-info-box{
+  border-left:3px solid grey;
 }
 

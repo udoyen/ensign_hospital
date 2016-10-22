@@ -8,12 +8,12 @@ input[type="text"], input[type="email"], input[type="tel"]{
 }
 
 input[type="text"], input[type="email"], input[type="tel"], textarea#comments, .form-group > select{
-  box-shadow:0 0 15px #07CC98;
+  box-shadow:0px 0px 15px #07CC98;
   width:100%;
 }
 
 input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea#comments:focus, .form-group > select:focus{
-  box-shadow:0 0 1px #07CC98;
+  box-shadow:0px 0px 1px #07CC98;
   border-color:#07CC98;
 }
 
